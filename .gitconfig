@@ -18,7 +18,7 @@
 	untracked = cyan
 [core]
 	editor = vim
-	excludesfile = /Users/heminga/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [alias]
 	st = status
 	b = branch
