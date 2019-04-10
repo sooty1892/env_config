@@ -1,0 +1,1 @@
+/Users/heminga/.zprezto/runcoms/zlogin

@@ -1,0 +1,315 @@
+BREW LEAVES
+allure
+cloc
+coreutils
+cowsay
+git-quick-stats
+graphviz
+httpie
+maven
+nvm
+pkg-config
+ruby
+sphinx-doc
+terraform
+tree
+yarn
+
+BREW CASK LIST
+gimp
+java6
+spotify
+spotify-notifications
+
+APPS
+Spotify
+IntelliJ
+WebStorm
+DataGrip
+PyCharm
+SQLDeveloper
+Robo3T
+Sublime Text (plugins) (subl command)
+iTerm2
+Chrome
+Mattermost
+Slack
+Adobe Acrobat Reader
+Word/Excel/Powerpoint
+xCode
+Docker
+Jetbrains Toolbox
+Clocker
+Flycut
+The Unarchiver
+AppCleaner
+OmniDiskSweeper
+Firefox
+BetterTouchTool
+Alfred 3
+Marta
+VSCode (plugins)
+Pages/Keynote/Numbers
+
+https://github.com/zimfw/zimfw ???
+https://www.terriblecode.com/blog/zplug-from-a-former-oh-my-zsh-user/
+terminalsare.sexy
+
+zooinspector
+
+Chrome extenstions:
+Adblock
+EditThisCookie
+Google Translate
+JSONView (or better)
+Keepa
+React Developer Tools
+Redux DevTools
+Requestly
+Wappalyzer (or similar)
+
+IntelliJ Plugins:
+.ignore (2.6.2)
+AspectJ Support (1.2)
+Builder Generator (1.1.7)
+Bytecode Viewer (0.1)
+CFML Support (3.53)
+Copyright (8.1)
+Coverage (182.5107.16)
+CSS Support (182.5107.16)
+CSV Plugin (1.6.1)
+Cucumber for Groovy (182.5107.16)
+Cucumber for Java (182.5107.16)
+Database Tools and SQL (182.5107.16)
+DSM Analysis (1.0.0)
+Eclipse Integration (3.0)
+EditorConfig (182.5107.16)
+Emma (182.5107.16)
+Flash/Flex Support (182.5107.16)
+Gherkin (999.999)
+Git Integration (8.1)
+GitHub (182.5107.16)
+Go To Project (1.2)
+Grep Console (8.1.162.000.0)
+Groovy (9.0)
+Guice (8.0)
+HashiCorp Terraform / HCL language support (0.6.12)
+Hibernate Support (1.0)
+HTML Tools (2.0)
+HTTP Client (182.5107.16)
+I18n for Java (182.5107.16)
+IDE Settings Sync (182.5107.16)
+IntelliLang (8.0)
+J2ME (1.0)
+Java Bytecode Decompiler (182.5107.16)
+Java EE: Batch Applications (1.0)
+Java EE: Bean Validation Support (1.1)
+Java EE: Contexts and Dependency Injection (1.1)
+Java EE: EJB, JPA, Servlets (1.0)
+Java EE: Java Server Faces (2.2.X.)
+Java EE: JMS, JSON Processing, Concurrency, Transaction  (1.0)
+Java EE: RESTful Web Services (JAX-RS) (1.0)
+Java EE: WebSockets (1.0)
+Java Server Pages (JSP) Integration (1.0)
+Java Stream Debugger (182.5107.16)
+JavaFX (1.0)
+JavaScript Debugger (1.0)
+JavaScript Intention Power Pack (0.9.4)
+JavaScript Support (1.0)
+JUnit (1.0)
+Kotlin (1.2.51-release-IJ2018.2-1)
+Less support (182.5107.16)
+Lombok Plugin (0.22.2018.2)
+Markdown support (182.5107.16)
+Maven Integration (182.5107.16)
+Maven Integration Extension (182.5107.16)
+Persistence Frameworks Support (1.0)
+PlantUML integration (2.10.1)
+Playframework Support (1.0)
+Plugin DevKit (1.0)
+Properties Support (182.5107.16)
+Properties to YAML Converter (1.0.2)
+Reactor framework support (1.0)
+Refactor-X (2.01)
+Remote Hosts Access (0.1)
+Sass support (182.5107.16)
+Scala (2018.2.11)
+Settings Repository (182.5107.16)
+Smali Support (1.0)
+Spring AOP/@AspectJ (1.0)
+Spring Assistant (0.12.0)
+Spring Batch (1.0)
+Spring Boot (1.0)
+Spring Data (1.0)
+Spring Integration Patterns (1.0)
+Spring OSGi (1.0)
+Spring Security (1.0)
+Spring Support (1.0)
+Spring Web Flow (1.0)
+Spring Web Services (1.0)
+Spy-js (182.5107.16)
+SSH Remote Run (0.1)
+Subversion Integration (1.1)
+Task Management (1.0)
+Terminal (0.1)
+Time Tracking (1.0)
+tslint (182.5107.16)
+UML Support (1.0)
+W3C Validators (2.0)
+XPathView + XSLT Support (4)
+XSLT-Debugger (1.4)
+YAML (182.5107.16)
+ZKM-Unscramble (1.0)
+
+Webstorm Plugins
+AngularJS (182.5107.19)
+ASP (0.1)
+Atom File Icons IDEA (3.0)
+BashSupport (1.7.3)
+CoffeeScript (182.5107.19)
+Copyright (8.1)
+CSS Support (182.5107.19)
+Cucumber.js (0.1)
+Dart (182.5107.19)
+Docker integration (182.5107.19)
+EditorConfig (182.5107.19)
+EJS (182.5107.19)
+File Watchers (182.5107.19)
+Gherkin (999.999)
+Git Integration (8.1)
+GitHub (182.5107.19)
+Haml (182.5107.19)
+Handlebars/Mustache (182.5107.19)
+HashiCorp Terraform / HCL language support (0.6.12)
+HTML Tools (2.0)
+HTTP Client (182.5107.19)
+IDE Settings Sync (182.5107.19)
+IntelliLang (8.0)
+Java Server Pages (JSP) Integration (1.0)
+JavaScript Debugger (1.0)
+JavaScript Intention Power Pack (0.9.4)
+JavaScript Support (1.0)
+Karma (182.5107.19)
+Less support (182.5107.19)
+LiveEdit (182.5107.19)
+Markdown Navigator (2.5.4)
+Mercurial Integration (10.0)
+Meteor (182.5107.19)
+Node.js Remote Interpreter (182.5107.19)
+NodeJS (182.5107.19)
+Performance Testing (182.5107.19)
+PhoneGap/Cordova Plugin (182.5107.19)
+Polymer & Web Components (999.999)
+Power Mode II (3.15)
+Prettier (182.5107.19)
+Pug (ex-Jade) (182.5107.19)
+Refactor-X (2.01)
+Remote Hosts Access (0.1)
+Sass support (182.5107.19)
+Settings Repository (182.5107.19)
+Spy-js (182.5107.19)
+SSH Remote Run (0.1)
+Stylus support (999.999)
+Subversion Integration (1.1)
+Task Management (1.0)
+Terminal (0.1)
+TextMate bundles support (182.5107.19)
+Time Tracking (1.0)
+tslint (182.5107.19)
+UML Support (1.0)
+Vagrant (182.5107.19)
+Vue.js (182.5107.19)
+W3C Validators (2.0)
+XPathView + XSLT Support (4)
+YAML (182.5107.19)
+Yeoman (182.5107.19)
+
+aws-cli
+apache
+host file:
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+127.0.0.1	localhost.ig.com
+127.0.0.1	local.ig.com
+
+
+cowsay (and extras)
+cowthink
+git
+svn
+http
+java 6 to 12 (something to simplify this)
+mvn 2 & 3
+latest python and 2
+pip for 2 & 3
+python env
+ssh keys
+yarn
+npm
+nvm
+node
+
+
+https://jenkins.io/blog/2017/02/01/pipeline-scalability-best-practice/
+https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin
+https://github.com/localstack/localstack
+https://awspolicygen.s3.amazonaws.com/policygen.html
+https://www.pluralsight.com/learn
+http://cloud.spring.io/spring-cloud-netflix/single/spring-cloud-netflix.html#spring-cloud-feign-hystrix
+http://cloud.spring.io/spring-cloud-static/spring-cloud-sleuth/1.1.1.RELEASE/#_feign
+https://docs.spring.io/spring-boot/docs/current/reference/html/index.html
+https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-build-systems.html#using-boot-dependency-management
+https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-dependency-versions.html
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html
+https://docs.spring.io/spring-boot/docs/current/reference/html/test-auto-configuration.html
+https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html
+https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html
+https://stackoverflow.com/questions/39215533/spring-cloud-config-how-to-use-multiple-configs
+https://www-uk.computershare.com/Employee/Login/CompanyIntroduction.aspx?lang=en&issuerid=SCUKIGG&cc=UK
+https://regexper.com/
+https://httpie.org/doc#querystring-parameters
+https://content.pivotal.io/ebooks?utm_source=events
+https://rxmarbles.com/#merge
+https://web.whatsapp.com/
+https://web.telegram.org/#/im
+https://devhints.io/httpie
+https://scrimba.com/g/glearnreact
+https://github.com/shyiko/jabba
+
+open -a /Applications/Google\ Chrome.app --args --disable-web-security --allow-running-insecure-content --user-data-dir=“”
+
+Java APIs
+
+JAX-RS
+
+@Path("/path/{clientId}")
+@PUT
+ResponseDTO something(
+	@PathParam("clientId") String clientId,
+	@QueryParam("accountId") String accountId,
+	RequestDTO requestDTO);
+
+
+Spring
+
+@PutMapping("/path/{clientId}")
+ResponseDTO something(
+	@PathVariable String clientId,
+	@RequestParam("accountId") String accountId,
+	@RequestBody RequestDTO requestDTO) {
+
+
+Computer share : C0000226521 : 23952395
+
+
+Gatling load tester
+Apache JMeter
+tldr

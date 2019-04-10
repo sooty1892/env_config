@@ -1,0 +1,33 @@
+[user]
+	name = Ashley Hemingway
+	email = Ashley.Hemingway@ig.com
+[color]
+	ui = true
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[core]
+	editor = vim
+	excludesfile = /Users/heminga/.gitignore_global
+[alias]
+	st = status
+	b = branch
+	c = checkout
+	cma = commit -am
+	cm = commit -m
+	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	fp = push -f
+	ri = rebase -i
+
+[push]
+	default = upstream
