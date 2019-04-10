@@ -313,3 +313,93 @@ Computer share : C0000226521 : 23952395
 Gatling load tester
 Apache JMeter
 tldr
+
+
+
+WIKI COPIES:
+Disk Space or Disk Usage commands :
+
+To find the disk space usage of a file system or folders (like /opt or /var) we use "df".
+ -h prints the disk usage info in --human readable format.
+e.g.  df -h /var or df -h /opt  [You can find the file system folder usage based on the directories you want to check the disk space. Pls refer below screeshot1]
+        Screeshot2 gives you the overall usage of /var or /opt.
+
+If you want to know the files which are causing the disk space, we use disk usage command "du".
+
+ e.g. du -sh *    or   du -ah *              [-s is to summarize the disk space taken for a file or folder,   -a will show the disk usage of all the files in the folder/sub folders also.]
+
+You can sort the files as in below screenshot2 to find the highest disk usage file from head to 10.
+
+
+ If you see files occupying more disk space, Ask Platform Operations team whether logrotate is having any issues on the host. Mainly access.log, localhost.log, application.logs, catalina logs will be logrotated.
+
+ Execute the below commands only if your deliverable is blocked. To nullify the contents of the file to free up a file size. From the above commands if we find a file having more size, we can nullify the file contents using below command. 
+
+  Points to consider before nullifying the contents of a file
+
+a. Which environment you are executing the command?  Don't do this in DEMO/PROD.
+b. How important that file contents are? 
+c. Whether the file is indexed by splunk or not? 
+d. File age?  
+
+          e.g.  cat /dev/null > filename
+
+
+Thread dump : 
+Since we are using Java HotSpot, we will be able to take thread dumps for Java apps only.
+
+Login to the host and "become tomcat'.
+If you know the application instance or the app war name. Find the process_id(PID) of the application with the below command :
+ps -ef | grep <instance_num> or  ps -ef | grep <instance_num> | grep <app-war-name> 
+
+ If it is high cpu utilization scenario, do top command to find which processid is having the top cpu, memory usage.
+ top will give the process_id(PID) which can be used to take thread dumps
+ We have to take multiple thread dumps to see the same thread state/scenario in all the thread dumps.
+ If we are using jstack, We have to initiate the thread dump command using java path
+
+ Following is the command to take thread dump using Jstack :
+
+     /opt/projects/tomcat/instance_?/jdk/bin/jstack -l <processid> > /path/filename
+ 
+ 
+e.g. /opt/projects/tomcat/instance_1/jdk/bin/jstack -l 9492 > /tmp/DVS.thread
+
+
+Thread dumps will not occupy much disk space. It will be in KBs.
+
+
+
+Thread dumps are used in situations as few below :
+
+When your application gets stuck/hung - taking thread dumps will help in this scenario
+When the JVM/Tomcat threads are piling up heavily. - Thread dumps will tell which thread/code is causing it.
+When during high CPU utilization.
+When any third party software is causing the application performance issues.
+When any DB resources are having hung issues with application.
+When taking heap dumps. - Take thread dumps before taking a heap dump.
+When response times are way higher than normal SLAs 
+........  etc etc
+
+
+Heap Dump :  
+Heap dump is used to analyse the long lived objects occupied in the heap space. it will let us know about the leak suspects and helps us to fix the memory leak issues.
+
+Important Points to note before taking a heap dump since it will pause the application for few seconds :
+
+If the application is critical or not. Take heap dumps for critical apps out of business hours
+If the application heap usage is between 80 - 90%. Avoid heap dumps if heap usage is greater than 90% since the app may crash.
+Before taking heap dumps we have to take multiple thread dumps since the threads may be related in the heap. Pls follow the above thread dump process.
+
+We can use jmap command to take heap dumps. Following is the command to take heap dumps :
+
+
+
+     /opt/projects/tomcat/instance_?/jdk/bin/jmap -dump:format=b,file=<filename> <processid>
+ 
+ 
+e.g. /opt/projects/tomcat/instance_1/jdk/bin/jmap -dump:format=b,file=/tmp/DVS.hprof 9492
+
+
+Heap dumps will occupy more disk space, it will be in MBs and GBs. So based on the disk space we need to copy the dump to local and clear the space on the host.
+
+
